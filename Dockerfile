@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Wan Yi "mail@wanyi.me"
 
-ENV NGINX_VERSION 1.13.6
+ENV NGINX_VERSION 1.12.2
 ENV OPENSSL_VERSION 1.1.0g
 
 RUN apt-get update
