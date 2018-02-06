@@ -1,8 +1,8 @@
 # docker-nginx-http2
-Docker image for nginx 1.12.0 stable with openssl 1.1.0g and http2 module support
+Docker image for nginx 1.12.2stable with openssl 1.1.0g and http2 module support
 
 ## What's inside
- - Nginx 1.12.0 build from source (works exactly like official nginx image)
+ - Nginx 1.12.2 build from source (works exactly like official nginx image)
  - Openssl 1.1.0g build from source and pre-installed
  - Nginx http_v2_module
  - Nginx http_stub_status_module
