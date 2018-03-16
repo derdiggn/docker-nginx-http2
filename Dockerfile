@@ -1,8 +1,8 @@
-FROM debian:jessie
+FROM debian:stretch-slim
 
-MAINTAINER Wan Yi "mail@wanyi.me"
+MAINTAINER Daniel Täge "derdiggn@gmail.com"
 
-ENV NGINX_VERSION 1.12.2
+ENV NGINX_VERSION 1.13.9
 ENV OPENSSL_VERSION 1.1.0g
 
 RUN apt-get update
